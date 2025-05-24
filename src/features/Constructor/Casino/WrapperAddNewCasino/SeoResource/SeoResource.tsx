@@ -3,10 +3,12 @@ import { useSeoStore } from '@/store/newResourceStore/casino'
 import UploadImage from '@/features/Constructor/_common/_comp/UploadImage/UploadImage'
 import { useSettingStore } from '@/store/newResourceStore/_common/setting/settingStore'
 import s from './SeoResource.module.scss'
+import { useState } from 'react'
 
 const SeoResource = () => {
 	const { seoData, setSeoData } = useSeoStore()
 	const settings = useSettingStore()
+	const [author, setAuthor] = useState('')
 	return (
 		<div className={s.seo}>
 			<div className={s.inputFile_block}>
@@ -26,6 +28,13 @@ const SeoResource = () => {
 				onChange={(e) => setSeoData({ field: 'name', value: e.target.value })}
 				placeholder_type="is_shown"
 			/>
+			<Input
+				placeholder="Автор"
+				value={author}
+				onChange={(e) => setAuthor(e.target.value)}
+				placeholder_type="is_shown"
+			/>
+
 
 			<div className={s.inputs_block}>
 				<p>Meta {settings.getCurrentLang('casino').toUpperCase()}</p>

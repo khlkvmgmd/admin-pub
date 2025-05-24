@@ -1,34 +1,34 @@
 :root {
-	--casino-bg-blue-grey: #0d181d;
+	--casino-bg-blue-grey: #FFFFFF;
 
-	--casino-bg-blue-purple: #121e26;
-	--casino-dark-grey: #878787;
-	--casino-grey: #9c9da9;
-	--casino-red: #ff1313;
-	--casino-light-red: #ff4949;
-	--casino-light-grey: #b5b5be;
-	--casino-white: #fff;
-	--casino-blue-grey-1: #2a354d;
+	--casino-bg-blue-purple: #ffffff;
+	--casino-dark-grey: #6b6e70;
+	--casino-grey: #CACCCE;
+	--casino-red: #C34949;
+	--casino-light-red: #C34949;
+	--casino-light-grey: #ffffff;
+	--casino-white: #000000;
+	--casino-blue-grey-1: #CACCCE;
 
 	/* // */
 	--casino-green: #2abe42;
-	--casino-green-dark: #238c34;
+	--casino-green-dark: #C34949;
 	--casino-select-green: radial-gradient(
-		#2abe42,
-		104.71% 104.71% at 50.26% 51.11%,
-		#2abe42 0%,
-		#84ce90 100%
+		#C34949,
+		/*104.71% 104.71% at 50.26% 51.11%,*/
+		#C34949 0%,
+		#C34949 100%
 	);
 
 	/* // */
-	--casino-white-opacity-1: rgba(255, 255, 255, 0.1);
-	--casino-white-opacity-hex: #29343b;
-	--casino-white-opacity-05: rgba(255, 255, 255, 0.05);
-	--casino-white-opacity-07: rgba(255, 255, 255, 0.07);
+	--casino-white-opacity-1: rgba(127, 209, 109, 0.897);
+	--casino-white-opacity-hex: #f0e8e6;
+	--casino-white-opacity-05: rgba(245, 246, 247, 0.347);
+	--casino-white-opacity-07: rgba(173, 176, 178, 0.448);
 	/* --casino-green-opacity-05: rgba(90, 255, 48, 0.5); */
-	--casino-green-opacity-05: #e93636;
+	--casino-green-opacity-05: #c5e936;
 	--casino-red-opacity-2: rgba(255, 65, 65, 0.2);
-	--casino-green-opacity-2: rgba(42, 190, 66, 0.2);
+	--casino-green-opacity-2: rgba(74, 190, 42, 0.2);
 	--casino-green-opacity-09: rgba(42, 190, 66, 0.2);
-	--casino-bg-blue-purple-05: rgba(18, 30, 38, 0.5);
+	--casino-bg-blue-purple-05: rgba(245, 15, 103, 0.5);
 }

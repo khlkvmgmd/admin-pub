@@ -41,9 +41,7 @@ const CategorySetting: React.FC<TProps> = ({
 	const categoriesCasino = categoriesObj[variantResource]
 	const { activeCascade, toggleActiveCascade } = useCascade()
 	const colors = useRef(
-		['#2CDD82', '#CC345D', '#00CFF2', '#FFEC38', '#FF9159'].sort(
-			() => Math.random() - 0.5
-		)
+		['#fffff', '#fffff', '#fffff', '#fffff', '#fffff']
 	).current
 	///
 

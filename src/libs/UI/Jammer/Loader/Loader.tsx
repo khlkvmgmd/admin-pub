@@ -10,10 +10,10 @@ const Loader: FC<TProps> = ({ params }) => {
 			<CirclesWithBar
 				height="100"
 				width="100"
-				color="#4fa94d"
-				outerCircleColor="#4fa94d"
-				innerCircleColor="#4fa94d"
-				barColor="#4fa94d"
+				color="#84ce90"
+				outerCircleColor="#84ce90"
+				innerCircleColor="#84ce90"
+				barColor="#84ce90"
 				ariaLabel="circles-with-bar-loading"
 				wrapperStyle={{}}
 				wrapperClass=""

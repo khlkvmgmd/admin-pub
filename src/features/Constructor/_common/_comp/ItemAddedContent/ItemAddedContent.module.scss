@@ -3,14 +3,9 @@
 	align-items: center;
 	justify-content: space-between;
 	padding: var(--s16);
-	border: 1px solid var(--casino-blue-grey-1);
+	border: 1px solid var(--casino-grey);
 	border-radius: var(--s24);
-	background: linear-gradient(
-			226deg,
-			rgba(255, 255, 255, 0) 25.23%,
-			rgba(30, 32, 52, 0.16) 143.65%
-		),
-		rgba(30, 32, 52, 0.4);
+	background: #fff
 }
 
 .itemLeft {

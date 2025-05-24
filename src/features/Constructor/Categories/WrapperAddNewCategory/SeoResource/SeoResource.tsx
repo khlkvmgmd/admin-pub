@@ -42,69 +42,6 @@ const SeoResource = ({ formData, handleChangeForm }: TProps) => {
 					}
 				/>
 			</div>
-
-			<div className={s.seoByLang}>
-				<P>Контент по языку</P>
-				<Input
-					placeholder={`Cat name ${lang.toUpperCase()}`}
-					placeholder_type="is_shown"
-					value={formData.translations[lang].cat_name}
-					onChange={(e) =>
-						handleChangeForm({
-							key: 'cat_name',
-							value: e.target.value,
-							lang,
-						})
-					}
-				/>
-				<Input
-					placeholder={`H1 ${lang.toUpperCase()}`}
-					placeholder_type="is_shown"
-					value={formData.translations[lang].title_h1}
-					onChange={(e) =>
-						handleChangeForm({
-							key: 'title_h1',
-							value: e.target.value,
-							lang,
-						})
-					}
-				/>
-				{/* <ContentHTML 
-                            placeholder={`Description ${lang.toUpperCase()}`}
-                            value={formData.translations[lang].description}
-                            onChange={(e) => 
-                                handleChangeForm({
-                                    key: 'description',
-                                    value: e,
-                                    lang
-                                })
-                            }
-                        /> */}
-				<Input
-					placeholder={`Meta Title ${lang.toUpperCase()}`}
-					placeholder_type="is_shown"
-					value={formData.translations[lang].meta_title}
-					onChange={(e) =>
-						handleChangeForm({
-							key: 'meta_title',
-							value: e.target.value,
-							lang,
-						})
-					}
-				/>
-				<Input
-					placeholder={`Meta description ${lang.toUpperCase()}`}
-					placeholder_type="is_shown"
-					value={formData.translations[lang].meta_description}
-					onChange={(e) =>
-						handleChangeForm({
-							key: 'meta_description',
-							value: e.target.value,
-							lang,
-						})
-					}
-				/>
-			</div>
 		</div>
 	)
 }

@@ -22,7 +22,7 @@ function PlusBtnSvg() {
 				height="43"
 				x="0.5"
 				y="0.5"
-				fill="url(#paint0_linear_30_669)"
+				fill="#2abe42"
 				fillOpacity="0.51"
 				rx="21.5"
 			></rect>
@@ -31,7 +31,7 @@ function PlusBtnSvg() {
 				height="43"
 				x="0.5"
 				y="0.5"
-				fill="url(#paint1_linear_30_669)"
+				fill="#2abe42"
 				fillOpacity="0.41"
 				rx="21.5"
 			></rect>
@@ -40,7 +40,7 @@ function PlusBtnSvg() {
 				height="43"
 				x="0.5"
 				y="0.5"
-				stroke="#2A354D"
+				stroke="#2abe42"
 				rx="21.5"
 			></rect>
 			<path

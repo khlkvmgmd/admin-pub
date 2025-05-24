@@ -9,7 +9,7 @@ const PlusSvg = () => (
 		viewBox="0 0 20 20"
 	>
 		<path
-			stroke="#fff"
+			stroke="#000"
 			strokeLinecap="round"
 			strokeLinejoin="round"
 			strokeWidth="1.667"

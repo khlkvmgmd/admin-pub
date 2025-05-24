@@ -14,7 +14,7 @@
 
 	line-height: 100%;
 	font-weight: 500;
-	color: var(--casino-blue-grey-1);
+	color: var(--casino-light-grey);
 
 	font-size: var(--s16);
 }
@@ -36,14 +36,14 @@
 		padding: var(--s6) var(--s10);
 	}
 	&.disabled {
-		background: var(--casino-dark-grey);
+		background: var(--casino-light-grey);
 		border: 1px solid var(--casino-light-grey);
 		color: var(--casino-light-grey);
 	}
 }
 .secondary {
 	border-radius: 1000px;
-	background: var(--casino-dark-grey);
+	background: var(--casino-light-grey);
 	border: 1px solid var(--casino-light-grey);
 	padding: var(--s10) var(--s24);
 	color: var(--casino-light-grey);
@@ -64,11 +64,11 @@
 	font-size: var(--s16);
 	line-height: 100%;
 	&.disabled {
-		background: var(--casino-dark-grey);
+		background: #d0d0d0;
 		color: var(--casino-light-grey);
-		border: 1px solid var(--casino-light-grey);
+		border: 1px solid var(--casino-dark-grey);
 
-		color: var(--casino-light-grey);
+		color: #afadad;
 	}
 }
 
@@ -79,7 +79,7 @@
 	border-radius: 1000px;
 
 	font-size: var(--s16);
-	color: var(--casino-white);
+	color: #fff;
 	font-weight: 600;
 }
 

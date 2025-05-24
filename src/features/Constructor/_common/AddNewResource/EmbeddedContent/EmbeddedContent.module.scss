@@ -4,10 +4,11 @@
 	flex-direction: column;
 	gap: var(--s24);
 	border-radius: var(--s24);
-	background-color: var(--casino-bg-blue-purple);
+	border: 1px solid  var(--casino-grey);
+	background-color: #fff;
 	.elements {
 		display: flex;
 		flex-wrap: wrap;
-		gap: var(--s12);
+		gap: var(--s10);
 	}
 }

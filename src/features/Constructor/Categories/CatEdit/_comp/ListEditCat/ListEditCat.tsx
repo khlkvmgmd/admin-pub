@@ -14,9 +14,7 @@ type TProps = {
 }
 const ListEditCat: FC<TProps> = ({ categories, handleEdit }) => {
 	const colors = useRef(
-		['#2CDD82', '#CC345D', '#00CFF2', '#FFEC38', '#FF9159'].sort(
-			() => Math.random() - 0.5
-		)
+		['#fffff', '#fffff', '#fffff', '#fffff', '#fffff']
 	).current
 	return (
 		<div className={s.container}>

@@ -9,7 +9,7 @@ type TProps = {
 	onChange: (params: string) => void
 }
 const COLORS_DEFAULT = [
-	'#FF327C',
+	'#000000',
 	'#14CCFF',
 	'#FF3B3B',
 	'#9CFF06',

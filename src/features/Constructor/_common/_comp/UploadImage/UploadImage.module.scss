@@ -2,7 +2,7 @@
 .dropWrapper {
 	width: 100%;
 	height: 100%;
-	border: var(--s2) solid var(--casino-blue-grey-1);
+	border: var(--s2) solid var(--casino-grey);
 	background-color: var(--casino-bg-blue-purple);
 	border-radius: var(--s16);
 	position: relative;
@@ -35,14 +35,14 @@
 		}
 	}
 	.dropTitle {
-		color: #fff;
+		color: #140b0b;
 		opacity: 0.6;
 		font-size: var(--s13);
 		text-align: center;
 		line-height: var(--s16);
 	}
 	&:hover {
-		background-color: #0d171e;
+		background-color: #dededf;
 	}
 	& input[type='file'] {
 		display: none;
@@ -57,7 +57,7 @@
 		align-items: center;
 		gap: var(--s16);
 		position: absolute;
-		background-color: #0d181d;
+		background-color: #c4c6c7;
 		border-radius: var(--s12);
 		right: var(--s12);
 		top: var(--s8);

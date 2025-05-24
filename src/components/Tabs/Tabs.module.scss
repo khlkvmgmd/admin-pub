@@ -5,13 +5,13 @@
 	.tab {
 		padding: var(--s12) var(--s33);
 		border-radius: 1000px;
-		border: 1px solid var(--casino-blue-grey-1);
+		border: 1px solid #6C6E70;
 		cursor: pointer;
 		p {
 			line-height: 100%;
 		}
 		&.active {
-			background-color: var(--casino-blue-grey-1);
+			background-color: #CACCCE;
 		}
 	}
 }

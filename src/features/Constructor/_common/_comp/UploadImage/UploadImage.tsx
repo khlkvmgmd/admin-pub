@@ -88,13 +88,9 @@ const UploadImage = ({
 		if (!e.target.files || !e.target.files[0]) {
 			return
 		}
-		if (e.target.files[0].size < 1 * 1024 * 1024) {
-			const file = e.target.files[0]
-			mutateUploadFile({ image: file })
-			setIsLoading(true)
-		} else {
-			toast.error('Файл слишком большой')
-		}
+		const file = e.target.files[0]
+		mutateUploadFile({ image: file })
+		setIsLoading(true)
 	}
 
 	const handleDelete = (e: React.MouseEvent<HTMLDivElement>) => {
